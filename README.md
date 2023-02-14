@@ -45,10 +45,10 @@ comment：存下每个评论的基本信息
 ![Image text0](C:\Users\asus\Desktop\Central Topic.png)
 
 以用户登录为例共需要经过以下过程：
-
-进入中间件SHA1内的函数逻辑，得到password明文加密后再设置password。具体需要调用gin.Context的Set方法设置password。随后调用next()方法继续下层路由。
-进入UserLoginController函数逻辑，获取username，并调用gin.Context的Get方法得到中间件设置的password。再调用service层的QueryUserLogin函数。
-进入QueryUserLogin函数逻辑，执行三个过程：checkNum，prepareData，packData。也就是检查参数、准备数据、打包数据，准备数据的过程中会调用model层的UserLoginDAO。
+</br>
+进入中间件SHA1内的函数逻辑，得到password明文加密后再设置password。具体需要调用gin.Context的Set方法设置password。随后调用next()方法继续下层路由。</br>
+进入UserLoginController函数逻辑，获取username，并调用gin.Context的Get方法得到中间件设置的password。再调用service层的QueryUserLogin函数。</br>
+进入QueryUserLogin函数逻辑，执行三个过程：checkNum，prepareData，packData。也就是检查参数、准备数据、打包数据，准备数据的过程中会调用model层的UserLoginDAO。</br>
 进入UserLoginDAO的逻辑，执行最终的数据库请求过程，返回给上层。
 
 
