@@ -117,8 +117,8 @@ func FillCommentListFields(comments *[]*model.Comment) error {
 例如 在Controller层返回数据时，直接调用了c.json返回对应数据，这里可以再进行一次方法封装，抽离代码
 
 ### 项目运行
-
 - mysql 5.7及以上
 - redis 无版本限制
 - ffmepg,已放入lib自带，用于对视频切片得到封面
 - 需要gcc环境,主要用于cgo，windows请将mingw-w64设置到环境变量
+` 在配置文件中进行本地配置
