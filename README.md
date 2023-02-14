@@ -28,7 +28,7 @@
 
 
 ### 数据库关系说明
-![Image text](C:\Users\asus\Desktop\Central Topic.png)
+![Image text](https://edu-0717.oss-cn-beijing.aliyuncs.com/Central%20Topic.png)
 
 所有的表都有自己的id主键为唯一的标识。
 
@@ -42,7 +42,7 @@ comment：存下每个评论的基本信息
 
 ### 架构说明
 
-![Image text0](C:\Users\asus\Desktop\Central Topic.png)
+![Image text0](https://edu-0717.oss-cn-beijing.aliyuncs.com/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1.jpg)
 
 以用户登录为例共需要经过以下过程：
 </br>
